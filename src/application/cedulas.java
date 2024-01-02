@@ -13,7 +13,7 @@ public class cedulas {
 
         System.out.println(valor);
 
-        int[] cedulas = {100, 50, 20, 10, 5, 2, 1};
+        int[] cedulas = {100, 50, 20, 10, 5, 3, 1};
 
         for (int cedula : cedulas) {
             int quantidadeNotas = valor / cedula;
@@ -21,6 +21,7 @@ public class cedulas {
             valor %= cedula;
         }
         scanner.close();
+        //fechamento
     }
 
 }
