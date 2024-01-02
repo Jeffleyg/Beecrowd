@@ -13,13 +13,15 @@ public class cedulas {
 
         System.out.println(valor);
 
-        int[] cedulas = {100, 50, 20, 10, 5, 2, 1};
+        int[] cedulas = {100, 50, 20, 10, 5, 3, 1};
 
         for (int cedula : cedulas) {
             int quantidadeNotas = valor / cedula;
             System.out.printf("%d nota(s) de R$ %d,00%n", quantidadeNotas, cedula);
             valor %= cedula;
         }
+        scanner.close();
+        //fechamento
     }
 
 }
