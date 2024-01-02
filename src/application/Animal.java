@@ -40,7 +40,7 @@ public class Animal {
                 }
             }
         }
-        scanner.close();
+        scanner.close(); // fechamento
     }
 
 }
