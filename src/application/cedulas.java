@@ -20,6 +20,7 @@ public class cedulas {
             System.out.printf("%d nota(s) de R$ %d,00%n", quantidadeNotas, cedula);
             valor %= cedula;
         }
+        scanner.close();
     }
 
 }
