@@ -14,9 +14,9 @@ public class BasicExtreme {
 	    
 	    X = A + B;
 	    
-	    scanner.close();
-	    
 		System.out.println("X = " + X);
+		scanner.close();
 	}
+	
 
 }
